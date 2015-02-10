@@ -1,7 +1,7 @@
 {
-  "name": "Louisnk.com",
-  "version": "0.3.1",
-  "description": "Mostly professional things about me",
+  "name": "fairestfaires",
+  "version": "0.0.1",
+  "description": "Fairest fares with the Uber api",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
@@ -11,17 +11,21 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/louisnk/louisnk.com.git"
+    "url": "https://github.com/louisnk/fairestfaires.git"
   },
   "keywords": [
     "Louis",
     "Kinley"
   ],
   "author": "Louis Kinley",
+  "contributors": [
+    "Louis Kinley",
+    "Kirk Kohler"
+  ],
   "bugs": {
-    "url": "https://github.com/louisnk/louisnk.com/issues"
+    "url": "https://github.com/louisnk/fairestfaires/issues"
   },
-  "homepage": "https://github.com/louisnk/louisnk.com",
+  "homepage": "https://github.com/louisnk/fairestfaires",
   "devDependencies": {
     "angular-ui-router": "^0.2.11",
     "bower": ">=1.3.5",
