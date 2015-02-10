@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="LnkAPP">
+  <head>
+    <title>{{title}}</title>
+    <link rel="stylesheet" type="text/css" href="stylesheets/lnk.css"></link>
+    <script src="javascripts/vendor/jquery/dist/jquery.min.js"></script>
+    <script src="javascripts/vendor/angular/angular.min.js"></script> 
+    <script src="javascripts/vendor/angular-ui-router/release/angular-ui-router.min.js"></script>
+    
+    <script src="javascripts/app/lnk.js"></script>
+    
+  </head>
+
+  <body ng-controller="GodController" ng-cloak>
+    <div ui-view></div>
+    <div class="footer" ng-include="views/partials/footer.html"></div>
+  </body>
+</html>
